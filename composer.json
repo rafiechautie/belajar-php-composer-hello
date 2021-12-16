@@ -1,0 +1,19 @@
+{
+    "name": "rafiechautie/membuat-library",
+    "description": "belajar membuat library menggunakan composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rafiechautie\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafie Chautie",
+            "email": "rafiqauti13@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
